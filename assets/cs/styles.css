@@ -1,0 +1,25 @@
+.robot-details {
+    display: flex;
+    align-items: center;
+}
+
+.robot-image {
+    width: 200px; /* Tamaño deseado para la imagen */
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y la información */
+}
+
+.robot-info {
+    flex-grow: 1; /* Permite que la información ocupe el espacio restante */
+}
+
+.robot-name {
+    font-size: 24px; /* Tamaño del nombre del robot */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.robot-id,
+.robot-weapon {
+    font-size: 18px; /* Tamaño de la información */
+    margin-bottom: 5px; /* Espacio inferior */
+}
